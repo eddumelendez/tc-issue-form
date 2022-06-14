@@ -1,5 +1,5 @@
 name: Feature
-description: File a feature
+description: Suggest a new feature
 title: "[Feature]: "
 labels: ["type/feature"]
 body:
@@ -45,39 +45,39 @@ body:
         - ToxiProxy
         - Trino
         - Vault
+        - New Module
   - type: textarea
     id: problem
     attributes:
       label: Problem
-      description: Is your feature related to a problem? Please describe
+      description: Is this feature related to a problem? Please describe it.
     validations:
       required: true
   - type: textarea
     id: solution
     attributes:
       label: Solution
-      description: What's the proposal solution for this feature?
+      description: What's the proposed solution for this feature?
     validations:
       required: true
   - type: textarea
     id: benefit
     attributes:
       label: Benefit
-      description: What's the benefit by implementing it in the project?
+      description: What's the benefit of addng this feature to the project?
     validations:
       required: true
   - type: textarea
     id: alternatives
     attributes:
       label: Benefit
-      description: Are there other alternatives? Please describe
+      description: Are there other alternatives? Please describe them.
     validations:
       required: true
   - type: dropdown
     id: contribute
     attributes:
       label: Would you like to help contributing this feature?
-      description: Which testcontainers module are you using?
       options:
         - 'Yes'
         - 'No'
